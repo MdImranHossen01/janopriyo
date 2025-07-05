@@ -35,11 +35,7 @@ const Discount = () => {
       </div>
 
       {/* Optional: Decorative image in the corner */}
-      <img 
-        src="https://placehold.co/150x150/e6f7d5/000000?text=Food+Sketch" 
-        alt="Decorative food sketch"
-        className="absolute bottom-0 left-4 w-24 h-24 opacity-30 hidden lg:block"
-      />
+     
     </div>
   );
 };
