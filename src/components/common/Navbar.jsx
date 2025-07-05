@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Search, Heart, GitCompare, User, ShoppingCart, ChevronDown, Menu, X } from 'lucide-react';
+import { Link } from 'react-router';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -94,9 +95,9 @@ const Navbar = () => {
             <a href="#" className="flex items-center py-4 hover:text-yellow-300">
               Blog <ChevronDown size={16} className="ml-1" />
             </a>
-            <a href="#" className="flex items-center py-4 hover:text-yellow-300">
+            <Link to='/contactUs' href="#" className="flex items-center py-4 hover:text-yellow-300">
               Contact Us
-            </a>
+            </Link>
           </nav>
           <div className="text-sm font-bold text-yellow-300 hidden xl:block">
             FREE 1 - 2 DAY SHIPPING OVER $49!
