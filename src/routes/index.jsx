@@ -3,6 +3,8 @@ import MainLayout from "../layouts/MainLayout";
 import NotFoundPage from "../pages/NotFoundPage";
 import Home from "../pages/Home/Home";
 import ContactPage from "../pages/ContactPage";
+import Faq from "../pages/Faq";
+import AboutPage from "../pages/AboutPage";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,15 @@ const router = createBrowserRouter([
             path:'/contactUs',
             Component: ContactPage,
         },
+        {
+            path:'/faq',
+            Component: Faq,
+        },
+        {
+            path:'/about',
+            Component: AboutPage,
+        },
+        
     ]
     
   },
