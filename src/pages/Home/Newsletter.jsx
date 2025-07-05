@@ -10,12 +10,7 @@ const Newsletter = () => {
         
         {/* Decorative image on the left (optional) */}
         {/* Replace with your own image. Using a placeholder for demonstration. */}
-        <img 
-          src="https://placehold.co/150x150/e6f7d5/000000?text=Food+Sketch" 
-          alt="Decorative food sketch"
-          className="absolute top-1/2 left-10 -translate-y-1/2 w-24 h-24 opacity-30 hidden lg:block"
-        />
-
+       
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
             Subscribe To Our Emails
@@ -46,9 +41,9 @@ const Newsletter = () => {
         {/* Decorative image on the right (optional) */}
         {/* Replace with your own image. Using a placeholder for demonstration. */}
         <img 
-          src="https://placehold.co/200x200/e6f7d5/000000?text=Veggie+Basket" 
+          src="https://i.ibb.co/DHZhW47b/Green-Modern-Grocery-Store-Instagram-Post.png" 
           alt="Basket of vegetables"
-          className="absolute top-1/2 right-10 -translate-y-1/2 w-32 h-32 hidden lg:block"
+          className="absolute top-1/2 right-10 -translate-y-1/2 w-64 h-64 hidden lg:block"
         />
 
       </div>

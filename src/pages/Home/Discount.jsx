@@ -25,8 +25,8 @@ const Discount = () => {
           <div className="flex justify-center">
             {/* Replace with your actual image. Using a placeholder for demonstration. */}
             <img 
-              src="https://placehold.co/400x400/ffffff/000000?text=Woman+with+Groceries" 
-              alt="Woman holding a bag of groceries"
+              src="https://i.ibb.co/990Rx3j4/Yellow-and-Beige-Illustrative-Independence-Day-Sale-Instagram-Post.png" 
+              alt="discount"
               className="rounded-lg w-full max-w-sm lg:max-w-md"
             />
           </div>
